@@ -1,0 +1,43 @@
+html,
+body {
+  background-color: #546E7A;
+  border: solid 1px white;
+}
+#display {
+  font-size: 4em;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  border: solid 1px white;
+}
+#drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  padding: 10px;
+  margin: 60px;
+  border: solid 1px #546E7A;
+  text-align: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+.drum-pad {
+  margin: 30px;
+  height: 80px;
+  -webkit-box-pack: center;
+          justify-content: center;
+  text-align: center;
+  border: solid 1px #546E7A;
+  border-radius: 2px;
+  background-color: #9E9E9E;
+  color: white;
+  font-size: 3em;
+  cursor: pointer;
+}
+.drum-pad:hover {
+  background-color: #B0BEC5;
+}
+footer {
+  color: white;
+}
